@@ -50,18 +50,18 @@ section {
 }
 section img{
     max-height: 600px;
-    max-width: 750px;
-    margin-right: 90px
+    max-width: 730px;
+    margin-right: 60px
 }
 section .text {
     padding-top: 40px;
     flex-basis: 40%;
 }
 section .text h2 {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: 20px;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 section .text p {
     color: #eee;
@@ -73,7 +73,7 @@ section .text button {
     color: hsl(257, 40%, 49%);
     background-color: white;
     width: fit-content;
-    padding: 15px 55px;
+    padding: 17px 58px;
     border: none;
     border-radius: 30px;
     font-weight: 500;
@@ -86,8 +86,8 @@ section .text button:hover {
     background-color: hsl(300, 69%, 71%)
 }
 footer {
-    margin-top: 100px;
-    margin-right: 100px;
+    margin-top: 70px;
+    margin-right: 150px;
     max-height: 10%;
     display: flex;
     justify-content: flex-end;

@@ -5,6 +5,10 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+*::selection {
+    background-color: hsl(300, 69%, 71%);
+    color: hsl(257, 40%, 49%);
+}
 h1, h2 {
     font-family: 'Poppins', sans-serif;
 }
@@ -29,7 +33,7 @@ header {
     display: flex;
     align-items: center;
     padding-top: 50px;
-    padding-left: 50px 
+    padding-left: 80px 
 }
 header .icon-holder {
     max-width: 250px;
@@ -50,7 +54,7 @@ section {
 }
 section img{
     max-height: 600px;
-    max-width: 730px;
+    max-width: 710px;
     margin-right: 60px
 }
 section .text {
@@ -58,7 +62,7 @@ section .text {
     flex-basis: 40%;
 }
 section .text h2 {
-    font-size: 35px;
+    font-size: 38px;
     font-weight: 600;
     margin-bottom: 20px;
     line-height: 1.7;
@@ -86,7 +90,7 @@ section .text button:hover {
     background-color: hsl(300, 69%, 71%)
 }
 footer {
-    margin-top: 70px;
+    margin-top: 50px;
     margin-right: 150px;
     max-height: 10%;
     display: flex;
